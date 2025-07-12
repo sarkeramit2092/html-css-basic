@@ -1,0 +1,191 @@
+/* Global section */
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.global-btn{
+  height: 40px;
+  width: 120px;
+  background-color: black;
+  color: white;
+  border: 2px;
+  margin-right: 10px;
+}
+
+.global-section{
+  padding: 2rem 0;
+}
+.global-heading{
+  font-size: 55px;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.global-head-p{
+  color: #464444;
+  text-align: center;
+}
+
+/* header  */
+
+header{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5rem;
+}
+
+header h2{
+  margin-left: 30px;
+}
+.main-menu ul li{
+  display: inline;
+  margin-right: 30px;
+  padding: 2px;
+}
+
+
+
+/* first section */
+
+
+.first-section{
+  background-image: url(./images/bg-in.avif); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  padding: 10rem 0;
+  text-align: center;
+}
+
+.first-section h2{
+  font-size: 55px;
+  margin: 10px;
+  color: rgb(230, 255, 90);
+}
+
+.first-section p{
+  font-size: 30px;
+  margin: 10px;
+  color: rgb(231, 192, 225);
+}
+
+/* about us section  */
+
+.about-main-div{
+  display: flex;
+  padding-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-main-div img {
+  height: 250px;
+  width: 250px;
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+
+.about-sub-div2{
+  width: 500px;
+}
+
+.about-sub-div2 h2{
+  font-size: 40px;
+}
+
+.about-sub-div2 p{
+  color: #464444;
+  margin: 15px 0;
+}
+
+
+/* service section  */
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.grid-single-item{
+  padding: 50px;
+  text-align: center;
+}
+
+.grid-single-item h2{
+  margin: 10px 0;
+}
+
+.cusotm-icon-size{
+  font-size: 55px;
+}
+
+/* work section  */
+
+.work-single-img{
+  width: 250px;
+  height: 250px;
+}
+
+
+/* review section  */
+
+.review-p{
+  color: black;
+  margin-bottom: 10px;
+}
+
+.review-h{
+  color: red !important;
+  letter-spacing: 2px;
+}
+
+
+/* contact section  */
+
+.contact-heading{
+  font-size: 55px;
+  text-align: center;
+}
+
+form{
+    margin-left: 29rem;
+    margin-top: 30px;
+}
+
+form input{
+  width: 450px;
+}
+
+form textarea{
+  width: 450px;
+}
+
+.submit-btn{
+  width: 150px;
+  height: 35px;
+  background-color: black;
+  color: white;
+  margin-top: 10px;
+}
+
+/* footer section  */
+
+footer{
+  background-color: black;
+  color: white;
+  height: 3rem;
+  text-align: center;
+  margin-top: 25px;
+}
+
+footer p{
+  padding-top: 20px;
+}
